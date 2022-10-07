@@ -1,0 +1,20 @@
+.container{
+    display: inline-block;
+    cursor: pointer;
+}
+.a, .b, .c{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    transition: all 0.4s ease;
+}
+.change .a{
+    transform: translate(0, 11px) rotate(-45deg);
+}
+.change .b{
+    opacity: 0;
+}
+.change .c{
+    transform: translate(0, -11px) rotate(45deg);
+}
